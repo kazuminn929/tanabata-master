@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+    height: 1500px;
+    background-image: url(images/tanabata3.jpg);
+}
+h1{
+    background-color: #EDEDE7;
+    margin-top: 0px;
+}
+nav{
+    background-color: #EDEDE7;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.float_clear{
+	clear:both;
+}
+.album_line{
+	width: 900px;
+}
+.album_box{
+	float: left;
+	width: 300px;
+}
+    
+    
