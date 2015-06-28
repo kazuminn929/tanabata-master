@@ -2,7 +2,7 @@ body{
     margin: 0 auto;
     padding: 0;
     width: 1280px;
-    height: 1500px;
+    height: 900px;
     background-color: #EDEDE7;
 }
 .col-hero{
@@ -109,6 +109,14 @@ album_box img{
     width: 200px;
     height: 150px;
 }
+#copy{
+    width: 1280px;
+    background-image: url(images/fusentyouB1_w.gif);
+    background-size: auto;
+    clear:both;
+   
+}
+
 
     
 
