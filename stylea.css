@@ -24,7 +24,8 @@ nav{
     transition: 0.5s;
 }
 .scale img:hover{
-    transform: scale(1,2);
+    transform: scale(2,2);
+    
 }
 
     
