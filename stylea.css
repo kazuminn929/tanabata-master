@@ -14,6 +14,11 @@ nav{
 	
     background-color:#090405;
     margin: 20px;
+    transition: 0.5s;
+}
+.album_box:hover{
+    transform: scale(2,2);
+    
 }
 .scale{
     width: 200px;
@@ -22,10 +27,6 @@ nav{
 }
 .scale img{
     transition: 0.5s;
-}
-.scale img:hover{
-    transform: scale(2,2);
-    
 }
 
     
