@@ -22,12 +22,86 @@ nav{
 }
 .scale{
     width: 200px;
-    height: 150px;
+    height: 200px;
     overflow: hidden;
 }
 .scale img{
     transition: 0.5s;
 }
+section .inner div{
+    opacity: 0;
+    transform-origin: 0px 0px;
+    animation-name: Drop;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+#hoshi .inner div{
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 15px;
+    background-image: url(images/hoshi.png)
+}
 
+#hoshi .inner div.flake2,
+#hoshi .inner div.flake3,
+#hoshi .inner div.flake4{
+    background-size: 5px 6px !important;
+}
+.flake1{
+    left: 20px;
+    animation-duration: 2.5s;
+}
+.flake2{
+    left: 40px;
+    animation-duration: 2.7s;
+    animation-delay: 0.2s;
+}
+.flake3{
+    left: 60px;
+    animation-duration: 2.9s;
+    animation-delay: 0.4s;
+}
+.flake4{
+    left: 80px;
+    animation-duration: 2.4s;
+    animation-delay: 0s;
+}
+@keyflames Drop{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(50px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotateY(100px);
+        opacity: 0.3;
+    }
+}
+#section{
+    width: 1280px;
+    height: 100px;
+}
+section .inner {
+  width: 1200px;
+  margin: auto;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+h5{
+    color: white;
+}
+
+
+
+
+
+
+    
     
     
